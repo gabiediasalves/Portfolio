@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap');
+
+:root {
+  --titulo-color: rgb(0, 0, 97);
+  ;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+header {
+  background-image: url(img/fundo_nav.jpg);
+  /* img do site https://br.freepik.com/psd-gratuitas/fundo-abstrato-com-foguete_17880077.htm#page=3&query=fundo%20colorido&position=11&from_view=search */
+  background-size: 1400px;
+  background-repeat: no-repeat;
+  max-width: 100%;
+  height: 670px;
+}
+
+nav {
+  color: white;
+  /* background-color: blue; */
+  z-index: 999;
+
+}
+
+li a {
+  position: fixed;
+
+}
+
+nav ul {
+  font-size: 18px;
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+  padding: 40px;
+  margin-right: 70px;
+}
+
+#logo {
+  margin-left: 70px;
+  margin-right: 200px;
+  font-size: 30px;
+  color: var(--titulo-color);
+}
+
+a {
+  color: white;
+}
+
+.container {
+  padding: 110px;
+  color: white;
+}
+
+#home_text1 {
+  font-size: 30px;
+}
+
+#home_text2 {
+  font-size: 72px;
+  font-weight: 600;
+  margin-left: -3px;
+
+}
+
+#home_text3 {
+  font-size: 40px;
+  margin: 5px 0;
+  color: var(--titulo-color);
+}
+
+
+.titulo {
+  color: var(--titulo-color);
+  padding: 40px;
+  text-align: center;
+  font-size: 37px;
+}
+
+#img_about{
+  /* margin: 10px 110px; */
+  float: left;
+  margin-left: 110px;
+  
+}
+.texto {
+  float: left;
+  
+ 
+}
+
+
+/* 
+apagar no final */
+#espaco {
+  height: 300px;
+}
